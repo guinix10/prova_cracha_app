@@ -57,13 +57,16 @@ class MeuCrachaApp extends StatelessWidget {
                 // ===============================================================
                 const CircleAvatar(
                   radius: 50,
+                  backgroundImage: NetworkImage(
+                    'https://avatars.githubusercontent.com/u/12345678?v=4',
+                  ),
                   // TODO: Adicionar propriedade backgroundImage com NetworkImage
                 ),
                 
                 const SizedBox(height: 15),
                 
                 const Text(
-                  'Seu Nome Completo',
+                  'Guilherme Monteiro Lima',
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
